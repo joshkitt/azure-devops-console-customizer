@@ -1,11 +1,12 @@
 'use strict';
 
 $(".bolt-master-panel-content").bind("DOMSubtreeModified", function() {
-    $(".text-ellipsis").each(function(index) {
+    $(".bolt-link").each(function(index) {
         // console.log($(this).children().first().text())
-        if ($(this).children().first().text().startsWith("Terraform Plan")
-            || $(this).children().first().text().startsWith("Terraform Apply")) {
-            $(this).children().first().css({ color: "yellow" });
+        var n = $(this).children().first();
+        if (n.text().startsWith("Terraform Plan")
+            || n.text().startsWith("Terraform Apply")) {
+            n.css({ color: "DeepSkyBlue", fontWeight: "bold"});
         }
     })
 });

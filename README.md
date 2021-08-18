@@ -1,20 +1,6 @@
 # Azure DevOps Console Customizer
-
-Allows you to customize the display of your AWS account ids for the SAML signin page: https://signin.aws.amazon.com/saml
-- Font color of the account listing
-- Custom label after the account id
-    - Dev, Test, Prod, Project Name, etc.
     
 ## Usage
-<div>
-    <img src="./screen.png"/>
-</div>
-<div>
-    <img src="./screen2.png"/>
-</div>
-<div>
-    <img src="./screen3.png"/>
-</div>
 
 ## Installation for Chrome/Brave
 - Clone this repository on your local filesystem
